@@ -1,0 +1,38 @@
+{
+  "name": "novu-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "email": "email dev --dir src/emails",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.0.3",
+    "@novu/echo": "^0.24.3-alpha.0",
+    "@novu/node": "^0.24.2",
+    "@novu/notification-center": "^0.24.2",
+    "@react-email/components": "0.0.18",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.4.1",
+    "appwrite": "^14.0.1",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-email": "2.1.3",
+    "react-icons": "^5.2.1",
+    "stripe": "^15.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

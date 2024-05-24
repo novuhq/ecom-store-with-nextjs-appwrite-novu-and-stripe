@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+tr,
+td,
+th {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	padding: 10px;
+	text-align: left;
+	background-color: #fff;
+}
+
+table {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th {
+	background-color: #93c5fd;
+}
