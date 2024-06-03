@@ -5,6 +5,7 @@
 2. Access your [GitHub developer account.](https://github.com/settings/developers)
 3. [Novu account with an API Key](https://web.novu.co/).
 4. [Novu Echo](https://docs.novu.co/echo/quickstart#try-it-now)
+5. [Stripe Test Account & Secret Key](https://stripe.com/)
 
 ## Getting Started
 
