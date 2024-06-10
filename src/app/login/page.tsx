@@ -4,7 +4,7 @@ import { OAuthProvider } from "appwrite";
 
 export default function Home() {
 	
-	const handleGoogleSignIn = async () => {
+	const handleGitHubSignIn = async () => {
 		try {
 	        account.createOAuth2Session(
 				OAuthProvider.Github,
