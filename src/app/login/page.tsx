@@ -23,7 +23,7 @@ export default function Home() {
 			<p className="mb-4 text-sm text-red-500">You need to sign in before you can make a purchase</p>
 			<button
 				className='p-4 border-[2px] border-gray-500 rounded-md hover:bg-black hover:text-white w-2/3'
-				onClick={() => handleGoogleSignIn()}
+				onClick={() => handleGitHubSignIn()}
 			>
 				Sign in with GitHub
 			</button>
